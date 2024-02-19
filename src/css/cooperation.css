@@ -1,0 +1,65 @@
+.cooperation-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cooperation-list {
+    color: var(--secondaryText);
+    background-color: var(--background);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cooperation-list:hover,
+.cooperation-list:focus {
+    transform: scale(1.1);
+}
+
+.cooperation-list-el {
+    text-decoration: underline;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.cooperation-list-item {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+@media screen and (min-width: 768px) {
+    .cooperation-title {
+        font-size: 40px;
+    }
+
+    .cooperation-list-el {
+        font-size: 20px;
+    }
+
+    .cooperation-list-item {
+        font-size: 16.2px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cooperation-title {
+        font-size: 50px;
+    }
+
+ .cooperation-list-el {
+     font-size: 27px;
+ }
+
+ .cooperation-list-item {
+    font-size: 23.4px;
+ }
+}

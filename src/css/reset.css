@@ -32,13 +32,6 @@ img {
     margin-bottom: 0;
 }
 
-button {
-    cursor: pointer;
-    font-family: inherit;
-    color: currentColor;
-    border: none;
-}
-
 .container {
     min-width: 320px;
     max-width: 428px;
