@@ -5,11 +5,11 @@
   "homepage": "https://Svitlana-Hreshnova.github.io/chelovek_bydyshego_vacancy",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /chelovek_bydyshego_vacancy/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Svitlana-Hreshnova/goitacademy/chelovek_bydyshego_vacancy.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
