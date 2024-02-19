@@ -27,6 +27,13 @@ img {
     display: block;
 }
 
+button {
+    cursor: pointer;
+    font-family: inherit;
+    color: currentColor;
+    border: none;
+}
+
 * {
     margin-top: 0;
     margin-bottom: 0;
