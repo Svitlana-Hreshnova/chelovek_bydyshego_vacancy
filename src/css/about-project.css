@@ -12,6 +12,8 @@
 
 .project-wrap {
     position: relative;
+    margin: 0 auto;
+    width: 265px;
 }
 
 .project-image {
@@ -21,10 +23,10 @@
 }
 
 .project-image-dekor {
-    width: 322px;
+    width: 265px;
     position: absolute;
-    top: -44px;
-    left: 33px;
+    top: -18px;
+    left: 0px;
 }
 
 .project-list-item {
@@ -53,26 +55,21 @@
 
 .pos_1 {
     position: absolute;
-    top: -35px;
-    left: 31px;
+    top: -36px;
+    left: -16px;
 }
 
 .pos_2 {
     position: absolute;
-    top: -30px;
-    left: 215px;
+    top: -31px;
+    left: 142px;
 }
 
 .pos_3 {
     position: absolute;
     bottom: -38px;
-    left: 123px;
+    left: 64px;
 }
-
-
-
-
-
 
 
 
@@ -81,27 +78,108 @@
 
 @media screen and (min-width: 768px) {
 
+.project-page {
+        padding: 60px 0;
+    }
+
+.project-title {
+    font-size: 40px;
+}
+
 .project-image {
         width: 441px;
         height: 444px;
     }
 
+.project-wrap {
+    width: 500px;
+}
+
     .project-image-dekor {
-        top: -86px;
-        left: 63px;
-        width: 613px;
+        width: 500px;
+        top: -33px;
+        left: 0px;
     }
+
+.project-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.project-list-item {
+    font-size: 20px;
+    width: 225px;
+}
+
+.project-sec-list {
+    font-size: 18px;
+}
+
+.pos_1 {
+    top: 21px;
+    left: -67px;
+}
+
+.pos_2 {
+    top: 31px;
+    left: 328px;
+}
+
+.pos_3 {
+    bottom: -38px;
+    left: 137px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
+
+    .project-title {
+        font-size: 50px;
+    }
+
     .project-image {
         width: 661.5px;
         height: 666px;
     }
 
-.project-image-dekor {
-    width: 917px;
-    top: -126px;
-    left: 107px;
+.project-wrap {
+    width: 751px;
 }
+
+.project-image-dekor {
+    width: 751px;
+    top: -50px;
+    left: 0px;
+}
+
+.project-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.project-list-item {
+    font-size: 30px;
+    width: 327px;
+}
+
+.project-sec-list {
+    font-size: 28px;
+}
+
+.pos_1 {
+    top: 21px;
+    left: -67px;
+}
+
+.pos_2 {
+    top: 34px;
+    left: 492px;
+}
+
+.pos_3 {
+    bottom: -38px;
+    left: 207px;
+}
+
 }

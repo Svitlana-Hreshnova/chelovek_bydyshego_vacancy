@@ -1,0 +1,82 @@
+.participation-page {
+    padding: 30px 0;
+}
+
+.participation-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.participation-list {
+    color: var(--brownText);
+}
+
+.participation-list-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.participation-sec-title {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.participation-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.participation-sec-list {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .participation-title {
+        font-size: 40px;
+    }
+
+    .participation-list-title {
+        font-size: 20px;
+    }
+
+    .participation-text {
+        font-size: 16.2px;
+    }
+
+    .participation-sec-title {
+        font-size: 17.2px;
+    }
+
+.participation-sec-list {
+    font-size: 15.2px;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+    .participation-title {
+        font-size: 50px;
+    }
+
+.participation-list-title {
+    font-size: 27px;
+}
+
+.participation-text {
+    font-size: 23.4px;
+}
+
+.participation-sec-title {
+    font-size: 24.4px;
+}
+
+.participation-sec-list {
+    font-size: 22.4px;
+}
+
+}
